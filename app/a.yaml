@@ -1,0 +1,6 @@
+runtime: python
+api_version: 1
+handlers:
+- url: /.*
+  static_files: page.html
+  upload: page.html
